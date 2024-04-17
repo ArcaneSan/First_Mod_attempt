@@ -1,6 +1,9 @@
 package net.arcane.testermodarc;
 
 import com.mojang.logging.LogUtils;
+import net.arcane.testermodarc.item.ModCreativeModeTabs;
+import net.arcane.testermodarc.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -20,12 +23,16 @@ import org.slf4j.Logger;
 public class TesterModArc
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "testermod";
+    public static final String MOD_ID = "testermodarc";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     public TesterModArc()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        //register items
+        ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -47,7 +54,11 @@ public class TesterModArc
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) //add items to a creative tab, this case ingredients
+        {
+            event.accept(ModItems.SOUL_SAPPHIRE);
+            event.accept(ModItems.RAW_SOUL_SAPPHIRE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
