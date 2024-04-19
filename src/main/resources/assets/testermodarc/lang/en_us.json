@@ -1,6 +1,9 @@
 {
   "item.testermodarc.soul_sapphire": "Soul Sapphire",
-  "item.testermodarc.soul_sapphire": "Raw Soul Sapphire",
+  "item.testermodarc.raw_soul_sapphire": "Raw Soul Sapphire",
+
+  "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
+  "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
 
   "creativetab.tester_tab": "Tester Tab"
 }

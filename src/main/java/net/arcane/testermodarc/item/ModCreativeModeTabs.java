@@ -1,6 +1,7 @@
 package net.arcane.testermodarc.item;
 
 import net.arcane.testermodarc.TesterModArc;
+import net.arcane.testermodarc.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +25,8 @@ public class ModCreativeModeTabs
                     {
                         output.accept(ModItems.SOUL_SAPPHIRE.get());
                         output.accept(ModItems.RAW_SOUL_SAPPHIRE.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Block.get());
+                        output.accept(ModBlocks.Raw_Soul_Sapphire_Block.get());
                     }))
                     .build());
 

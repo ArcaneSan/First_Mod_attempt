@@ -1,6 +1,7 @@
 package net.arcane.testermodarc;
 
 import com.mojang.logging.LogUtils;
+import net.arcane.testermodarc.block.ModBlocks;
 import net.arcane.testermodarc.item.ModCreativeModeTabs;
 import net.arcane.testermodarc.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,8 +32,10 @@ public class TesterModArc
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //register items
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
