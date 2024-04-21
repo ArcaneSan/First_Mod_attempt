@@ -5,5 +5,10 @@
   "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
   "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
 
+  "block.testermodarc.soul_sapphire_ore": "Soul Sapphire Ore",
+  "block.testermodarc.deepslate_soul_sapphire_ore": "Deep Soul Sapphire Ore",
+  "block.testermodarc.netherrack_soul_sapphire_ore": "Nether Soul Sapphire Ore",
+  "block.testermodarc.end_stone_soul_sapphire_ore": "End Soul Sapphire Ore",
+
   "creativetab.tester_tab": "Tester Tab"
 }

@@ -27,6 +27,10 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.RAW_SOUL_SAPPHIRE.get());
                         output.accept(ModBlocks.Soul_Sapphire_Block.get());
                         output.accept(ModBlocks.Raw_Soul_Sapphire_Block.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Ore.get());
+                        output.accept(ModBlocks.Deepslate_Soul_Sapphire_Ore.get());
+                        output.accept(ModBlocks.Netherrack_Soul_Sapphire_Ore.get());
+                        output.accept(ModBlocks.End_Stone_Soul_Sapphire_Ore.get());
                     }))
                     .build());
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools":
+          [
+            {
+              "bonus_rolls": 0.0,
+              "conditions":
+                      [
+                        {
+                          "condition": "minecraft:survives_explosion"
+                        }
+                      ],
+              "entries":
+                      [
+                        {
+                          "type": "minecraft:item",
+                          "name": "testermodarc:raw_soul_sapphire_block"
+                        }
+                      ],
+              "rolls": 1.0
+            }
+          ],
+  "random_sequence": "testermodarc:blocks/soul_sapphire_block"
+}
