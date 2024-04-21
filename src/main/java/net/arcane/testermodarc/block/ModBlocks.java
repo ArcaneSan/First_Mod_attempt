@@ -20,7 +20,7 @@ public class ModBlocks
 {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TesterModArc.MOD_ID);
-        //register new blocks here!
+        //register new blocks here! Select properties or copy existing ones
     public static final RegistryObject<Block> Soul_Sapphire_Block = registerBlock("soul_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK))); //registers block, copies existing properties
     public static final RegistryObject<Block> Raw_Soul_Sapphire_Block = registerBlock("raw_soul_sapphire_block",
