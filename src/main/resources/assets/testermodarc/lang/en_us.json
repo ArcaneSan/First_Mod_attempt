@@ -1,7 +1,7 @@
 {
   "item.testermodarc.soul_sapphire": "Soul Sapphire",
   "item.testermodarc.raw_soul_sapphire": "Raw Soul Sapphire",
-
+  "item.testermodarc.metal_detector": "Metal Detector",
   "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
   "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
 
@@ -9,6 +9,6 @@
   "block.testermodarc.deepslate_soul_sapphire_ore": "Deep Soul Sapphire Ore",
   "block.testermodarc.netherrack_soul_sapphire_ore": "Nether Soul Sapphire Ore",
   "block.testermodarc.end_stone_soul_sapphire_ore": "End Soul Sapphire Ore",
-
+  "block.testermodarc.sound_block": "Sound Block",
   "creativetab.tester_tab": "Tester Tab"
 }

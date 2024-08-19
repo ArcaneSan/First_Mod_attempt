@@ -31,6 +31,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Deepslate_Soul_Sapphire_Ore.get());
                         output.accept(ModBlocks.Netherrack_Soul_Sapphire_Ore.get());
                         output.accept(ModBlocks.End_Stone_Soul_Sapphire_Ore.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModBlocks.Sound_Block.get());
                     }))
                     .build());
 

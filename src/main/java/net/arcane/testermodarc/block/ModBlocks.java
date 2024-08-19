@@ -2,6 +2,7 @@ package net.arcane.testermodarc.block;
 
 
 import net.arcane.testermodarc.TesterModArc;
+import net.arcane.testermodarc.block.custom.SoundBlock;
 import net.arcane.testermodarc.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -40,6 +41,8 @@ public class ModBlocks
     public static final RegistryObject<Block> End_Stone_Soul_Sapphire_Ore = registerBlock("end_stone_soul_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(6,15)));
+    public static final RegistryObject<Block> Sound_Block = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 
