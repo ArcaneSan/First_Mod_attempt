@@ -33,6 +33,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.End_Stone_Soul_Sapphire_Ore.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.Sound_Block.get());
+                        output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModItems.PINE_CONE.get());
                     }))
                     .build());
 
