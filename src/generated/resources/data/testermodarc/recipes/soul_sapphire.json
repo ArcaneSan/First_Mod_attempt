@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "testermodarc:soul_sapphire_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "testermodarc:soul_sapphire"
+  }
+}

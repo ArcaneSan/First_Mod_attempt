@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "soul_sapphire",
+  "ingredient": {
+    "item": "testermodarc:raw_soul_sapphire"
+  },
+  "result": "testermodarc:soul_sapphire"
+}

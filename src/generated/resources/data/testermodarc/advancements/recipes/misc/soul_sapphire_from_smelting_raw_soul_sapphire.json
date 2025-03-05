@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_soul_sapphire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testermodarc:raw_soul_sapphire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "testermodarc:soul_sapphire_from_smelting_raw_soul_sapphire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_soul_sapphire",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "testermodarc:soul_sapphire_from_smelting_raw_soul_sapphire"
+    ]
+  },
+  "sends_telemetry_event": false
+}
