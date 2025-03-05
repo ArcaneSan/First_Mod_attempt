@@ -1,7 +1,0 @@
-{
-  "parent" : "minecraft:block/cube_all",
-  "textures":
-  {
-    "all": "testermodarc:block/soul_sapphire_ore"
-  }
-}

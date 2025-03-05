@@ -4,6 +4,9 @@
   "item.testermodarc.metal_detector": "Metal Detector",
   "item.testermodarc.strawberry": "strawberry",
   "item.testermodarc.pine_cone": "pine cone",
+
+
+
   "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
   "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
 
@@ -12,5 +15,10 @@
   "block.testermodarc.netherrack_soul_sapphire_ore": "Nether Soul Sapphire Ore",
   "block.testermodarc.end_stone_soul_sapphire_ore": "End Soul Sapphire Ore",
   "block.testermodarc.sound_block": "Sound Block",
+
+
+  "tooltip.testermodarc.metal_detector.tooltip": "Finds valuables underground!",
+
+
   "creativetab.tester_tab": "Tester Tab"
 }
