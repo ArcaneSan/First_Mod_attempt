@@ -9,6 +9,15 @@
 
   "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
   "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
+  "block.testermodarc.soul_sapphire_stairs" : "Soul Sapphire Stairs",
+  "block.testermodarc.soul_sapphire_slab" : "Soul Sapphire Slab",
+  "block.testermodarc.soul_sapphire_button" : "Soul Sapphire Button",
+  "block.testermodarc.soul_sapphire_pressure_plate" : "Soul Sapphire Pressure Plate",
+  "block.testermodarc.soul_sapphire_fence" : "Soul Sapphire Fence",
+  "block.testermodarc.soul_sapphire_fence_gate" : "Soul Sapphire Fence Gate",
+  "block.testermodarc.soul_sapphire_wall" : "Soul Sapphire wall",
+  "block.testermodarc.soul_sapphire_door" : "Soul Sapphire door",
+  "block.testermodarc.soul_sapphire_trapdoor" : "Soul Sapphire trapdoor",
 
   "block.testermodarc.soul_sapphire_ore": "Soul Sapphire Ore",
   "block.testermodarc.deepslate_soul_sapphire_ore": "Deep Soul Sapphire Ore",

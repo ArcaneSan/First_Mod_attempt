@@ -35,6 +35,16 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Sound_Block.get());
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModItems.PINE_CONE.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Door.get());
+                        output.accept(ModBlocks.Soul_Sapphire_TrapDoor.get());
+                        output.accept(ModBlocks.Soul_Sapphire_stairs.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Slab.get());
+                        output.accept(ModBlocks.Soul_Sapphire_wall.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Button.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Pressure_Plate.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Fence.get());
+                        output.accept(ModBlocks.Soul_Sapphire_Fence_Gate.get());
+
                     }))
                     .build());
 

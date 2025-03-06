@@ -1,6 +1,15 @@
-// 1.20.1	2025-03-05T12:24:03.892833	Item Models: testermodarc
+// 1.20.1	2025-03-06T11:43:35.4454882	Item Models: testermodarc
 e645f6bb3b78e28fcc2e41bd035ecf745d2a22fe assets/testermodarc/models/item/metal_detector.json
 aa2d051b7696cc90ff7eec9b4cdc7b7edfef3068 assets/testermodarc/models/item/pine_cone.json
 fd84d96246e74e302029f30212f3688a91080653 assets/testermodarc/models/item/raw_soul_sapphire.json
 51b867f134d70ac15874c81e3d191d9f275ea996 assets/testermodarc/models/item/soul_sapphire.json
+9ace2e83df8c1a27c9b4b386b1a39103a23150a8 assets/testermodarc/models/item/soul_sapphire_button.json
+6559c72413383d425aa5649cf2307b6601eb8212 assets/testermodarc/models/item/soul_sapphire_door.json
+a02e30033877921121d64a071323a8cf2b91f0bf assets/testermodarc/models/item/soul_sapphire_fence.json
+6437f61fc8fb163be04ec355ce92d5a0d23bf15d assets/testermodarc/models/item/soul_sapphire_fence_gate.json
+5f3cc4a815db2feb5a21fd9c068b523e2746d9f2 assets/testermodarc/models/item/soul_sapphire_pressure_plate.json
+468b24d46bac673f91b517242bb4f6c646327f67 assets/testermodarc/models/item/soul_sapphire_slab.json
+4ac9fcebc440d4321ec0696849fde4445e2f22aa assets/testermodarc/models/item/soul_sapphire_stairs.json
+34cce4c87c3ccd707408fb79a03769bc00b4e392 assets/testermodarc/models/item/soul_sapphire_trapdoor.json
+998c19104abd2736309ffd850f71257fd5214308 assets/testermodarc/models/item/soul_sapphire_wall.json
 4ef6255ab5f40f010a5fe87cc8b46df86bbfac21 assets/testermodarc/models/item/strawberry.json

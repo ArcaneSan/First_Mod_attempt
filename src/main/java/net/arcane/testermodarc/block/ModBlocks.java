@@ -4,14 +4,13 @@ package net.arcane.testermodarc.block;
 import net.arcane.testermodarc.TesterModArc;
 import net.arcane.testermodarc.block.custom.SoundBlock;
 import net.arcane.testermodarc.item.ModItems;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -44,6 +43,27 @@ public class ModBlocks
     public static final RegistryObject<Block> Sound_Block = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> Soul_Sapphire_stairs = registerBlock("soul_sapphire_stairs",
+            () -> new StairBlock(() -> ModBlocks.Soul_Sapphire_Block.get().defaultBlockState(),
+                    (BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK))));
+    public static final RegistryObject<Block> Soul_Sapphire_Slab = registerBlock("soul_sapphire_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> Soul_Sapphire_Button = registerBlock("soul_sapphire_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.AMETHYST),
+                    BlockSetType.IRON, 10, true));
+    public static final RegistryObject<Block> Soul_Sapphire_Pressure_Plate = registerBlock("soul_sapphire_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK),
+                    BlockSetType.IRON));
+    public static final RegistryObject<Block> Soul_Sapphire_Fence = registerBlock("soul_sapphire_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> Soul_Sapphire_Fence_Gate = registerBlock("soul_sapphire_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK), SoundEvents.CHAIN_PLACE, SoundEvents.ANVIL_BREAK));
+    public static final RegistryObject<Block> Soul_Sapphire_wall = registerBlock("soul_sapphire_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> Soul_Sapphire_Door = registerBlock("soul_sapphire_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion(), BlockSetType.CHERRY));
+    public static final RegistryObject<Block> Soul_Sapphire_TrapDoor = registerBlock("soul_sapphire_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion(), BlockSetType.CHERRY));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)

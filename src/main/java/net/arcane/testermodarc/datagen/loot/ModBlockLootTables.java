@@ -30,7 +30,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
             this.dropSelf(ModBlocks.Raw_Soul_Sapphire_Block.get());
             this.dropSelf(ModBlocks.Sound_Block.get());
 
+            this.dropSelf(ModBlocks.Soul_Sapphire_TrapDoor.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_Fence.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_stairs.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_Fence_Gate.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_Button.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_Pressure_Plate.get());
+            this.dropSelf(ModBlocks.Soul_Sapphire_wall.get());
 
+            this.add(ModBlocks.Soul_Sapphire_Slab.get(),
+                    block -> createSlabItemTable(ModBlocks.Soul_Sapphire_Slab.get()));
+            this.add(ModBlocks.Soul_Sapphire_Door.get(),
+                    block -> createDoorTable(ModBlocks.Soul_Sapphire_Door.get()));
 
 
             this.add(ModBlocks.Soul_Sapphire_Ore.get(),
@@ -42,6 +53,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
             this.add(ModBlocks.End_Stone_Soul_Sapphire_Ore.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.End_Stone_Soul_Sapphire_Ore.get(), ModItems.RAW_SOUL_SAPPHIRE.get()));
     }
+
 
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

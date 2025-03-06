@@ -44,5 +44,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.Netherrack_Soul_Sapphire_Ore.get());
 
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.Soul_Sapphire_Fence.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.Soul_Sapphire_Fence_Gate.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.Soul_Sapphire_wall.get());
+
     }
 }
