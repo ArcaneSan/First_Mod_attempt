@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-06T10:55:16.7088426	Tags for minecraft:block mod id testermodarc
+// 1.20.1	2025-03-07T21:18:46.9221725	Tags for minecraft:block mod id testermodarc
 1df9ed347969d8e834c080847e956ec2da2feea6 data/minecraft/tags/blocks/fences.json
 46b4e9b5402e26b65d95fecebd4a97fd20ccdec3 data/minecraft/tags/blocks/fence_gates.json
 8ee34642f678f9b8eabf8d29139ff7e184c95540 data/minecraft/tags/blocks/mineable/pickaxe.json
@@ -7,3 +7,4 @@
 f42c4f8299a5b9172f0937c5b4e13786f0cae49e data/minecraft/tags/blocks/needs_stone_tool.json
 90ef39f05e03866248af5e63ddafda8b769dcf93 data/minecraft/tags/blocks/walls.json
 ea141be9af3b135ac18ebdde7a28f4554d365cb3 data/testermodarc/tags/blocks/metal_detector_valuables.json
+dc6314b5af0ffe539f14143ac96ead5c34000d81 data/testermodarc/tags/blocks/needs_soul_sapphire_tool.json

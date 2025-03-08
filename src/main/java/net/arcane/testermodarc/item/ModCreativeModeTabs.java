@@ -46,6 +46,11 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Soul_Sapphire_Fence_Gate.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_SWORD.get());
                         output.accept(ModItems.CHINESE_SABER.get());
+                        output.accept(ModItems.SAPPHIRE_STAFF.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_PICKAXE.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_AXE.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_HOE.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_SHOVEL.get());
 
                     }))
                     .build());
