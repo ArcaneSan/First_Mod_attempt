@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "testermodarc:item/soul_sapphire_sword_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "testermodarc:item/soul_sapphire_sword_2d"
+    },
+    "ground": {
+      "parent": "testermodarc:item/soul_sapphire_sword_2d"
+    },
+    "fixed": {
+      "parent": "testermodarc:item/soul_sapphire_sword_2d"
+    }
+  }
+}

@@ -44,6 +44,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Soul_Sapphire_Pressure_Plate.get());
                         output.accept(ModBlocks.Soul_Sapphire_Fence.get());
                         output.accept(ModBlocks.Soul_Sapphire_Fence_Gate.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_SWORD.get());
+                        output.accept(ModItems.CHINESE_SABER.get());
 
                     }))
                     .build());
