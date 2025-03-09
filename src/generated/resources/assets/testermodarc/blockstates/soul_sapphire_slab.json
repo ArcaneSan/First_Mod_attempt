@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testermodarc:block/soul_sapphire_slab"
+    },
+    "type=double": {
+      "model": "testermodarc:block/soul_sapphire_block"
+    },
+    "type=top": {
+      "model": "testermodarc:block/soul_sapphire_slab_top"
+    }
+  }
+}

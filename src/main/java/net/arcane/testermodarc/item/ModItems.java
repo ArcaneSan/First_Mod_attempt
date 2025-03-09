@@ -3,7 +3,6 @@ package net.arcane.testermodarc.item;
 import net.arcane.testermodarc.TesterModArc;
 import net.arcane.testermodarc.item.custom.FuelItem;
 import net.arcane.testermodarc.item.custom.MetalDetectorItem;
-import net.arcane.testermodarc.item.custom.ModToolTiers;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -34,6 +33,15 @@ public class ModItems
             ITEMS.register("soul_sapphire_hoe",() -> new HoeItem(ModToolTiers.SOUL_SAPPHIRE, 1, 2, new Item.Properties()));
     public static final RegistryObject<Item> CHINESE_SABER =
             ITEMS.register("chinese_saber",() -> new SwordItem(ModToolTiers.SOUL_SAPPHIRE, 8, 4, new Item.Properties()));
+
+    public static final RegistryObject<Item> SOUL_SAPPHIRE_HELMET =
+            ITEMS.register("soul_sapphire_helmet",() -> new ArmorItem(ModArmorMaterials.SOUL_SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SOUL_SAPPHIRE_CHESTPLATE =
+            ITEMS.register("soul_sapphire_chestplate",() -> new ArmorItem(ModArmorMaterials.SOUL_SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SOUL_SAPPHIRE_LEGGINGS =
+            ITEMS.register("soul_sapphire_leggings",() -> new ArmorItem(ModArmorMaterials.SOUL_SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SOUL_SAPPHIRE_BOOTS =
+            ITEMS.register("soul_sapphire_boots",() -> new ArmorItem(ModArmorMaterials.SOUL_SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

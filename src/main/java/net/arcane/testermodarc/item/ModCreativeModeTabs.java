@@ -31,10 +31,12 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Deepslate_Soul_Sapphire_Ore.get());
                         output.accept(ModBlocks.Netherrack_Soul_Sapphire_Ore.get());
                         output.accept(ModBlocks.End_Stone_Soul_Sapphire_Ore.get());
+
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.Sound_Block.get());
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModItems.PINE_CONE.get());
+
                         output.accept(ModBlocks.Soul_Sapphire_Door.get());
                         output.accept(ModBlocks.Soul_Sapphire_TrapDoor.get());
                         output.accept(ModBlocks.Soul_Sapphire_stairs.get());
@@ -44,13 +46,20 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.Soul_Sapphire_Pressure_Plate.get());
                         output.accept(ModBlocks.Soul_Sapphire_Fence.get());
                         output.accept(ModBlocks.Soul_Sapphire_Fence_Gate.get());
+
                         output.accept(ModItems.SOUL_SAPPHIRE_SWORD.get());
                         output.accept(ModItems.CHINESE_SABER.get());
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
+
                         output.accept(ModItems.SOUL_SAPPHIRE_PICKAXE.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_AXE.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_HOE.get());
+
                         output.accept(ModItems.SOUL_SAPPHIRE_SHOVEL.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_HELMET.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_CHESTPLATE.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_LEGGINGS.get());
+                        output.accept(ModItems.SOUL_SAPPHIRE_BOOTS.get());
 
                     }))
                     .build());

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "testermodarc:block/soul_sapphire_block"
+  }
+}

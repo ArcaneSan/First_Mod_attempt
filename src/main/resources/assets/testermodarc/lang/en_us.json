@@ -13,6 +13,11 @@
   "item.testermodarc.chinese_saber" : "Chinese Saber",
   "item.testermodarc.sapphire_staff": "Sapphire Staff",
 
+  "item.testermodarc.soul_sapphire_helmet": "soul sapphire helmet",
+  "item.testermodarc.soul_sapphire_chestplate": "soul sapphire chestplate",
+  "item.testermodarc.soul_sapphire_leggings": "soul sapphire leggings",
+  "item.testermodarc.soul_sapphire_boots": "soul sapphire boots",
+
   "block.testermodarc.soul_sapphire_block" : "Soul Sapphire Block",
   "block.testermodarc.raw_soul_sapphire_block" : "Raw Soul Sapphire Block",
   "block.testermodarc.soul_sapphire_stairs" : "Soul Sapphire Stairs",

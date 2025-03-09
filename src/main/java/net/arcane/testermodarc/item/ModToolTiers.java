@@ -1,7 +1,6 @@
-package net.arcane.testermodarc.item.custom;
+package net.arcane.testermodarc.item;
 
 import net.arcane.testermodarc.TesterModArc;
-import net.arcane.testermodarc.item.ModItems;
 import net.arcane.testermodarc.util.ModTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "testermodarc:item/soul_sapphire_shovel"
+  }
+}

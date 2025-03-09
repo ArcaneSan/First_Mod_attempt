@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "testermodarc:block/soul_sapphire_block"
+  }
+}
