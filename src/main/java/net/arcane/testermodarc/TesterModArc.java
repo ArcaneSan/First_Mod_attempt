@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.arcane.testermodarc.block.ModBlocks;
 import net.arcane.testermodarc.item.ModCreativeModeTabs;
 import net.arcane.testermodarc.item.ModItems;
+import net.arcane.testermodarc.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,8 @@ public class TesterModArc
         ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
