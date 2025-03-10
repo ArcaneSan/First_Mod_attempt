@@ -3,6 +3,7 @@ package net.arcane.testermodarc.datagen;
 import net.arcane.testermodarc.TesterModArc;
 import net.arcane.testermodarc.item.ModItems;
 import net.arcane.testermodarc.loot.AddItemModifier;
+import net.arcane.testermodarc.loot.AddSusSandItemModifier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +27,8 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build() }, ModItems.PINE_CONE.get()));
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build() }, ModItems.METAL_DETECTOR.get()));
+        add("metal_detector_from_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.METAL_DETECTOR.get()));
 
     }
 }
