@@ -51,6 +51,8 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.CHINESE_SABER.get());
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 
+                        output.accept(ModItems.STRAWBERRY_SEEDS.get());
+
                         output.accept(ModItems.SOUL_SAPPHIRE_PICKAXE.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_AXE.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_HOE.get());

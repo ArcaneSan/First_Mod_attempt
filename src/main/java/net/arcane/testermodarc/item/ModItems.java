@@ -1,6 +1,7 @@
 package net.arcane.testermodarc.item;
 
 import net.arcane.testermodarc.TesterModArc;
+import net.arcane.testermodarc.block.ModBlocks;
 import net.arcane.testermodarc.item.custom.FuelItem;
 import net.arcane.testermodarc.item.custom.MetalDetectorItem;
 import net.arcane.testermodarc.item.custom.ModArmorItem;
@@ -52,6 +53,12 @@ public class ModItems
             ITEMS.register("strawberry",() -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> PINE_CONE =
             ITEMS.register("pine_cone",() -> new FuelItem(new Item.Properties(), 400));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS =
+            ITEMS.register("strawberry_seeds",() -> new ItemNameBlockItem(ModBlocks.Strawberry_Crop.get(), new Item.Properties()));
+
+
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

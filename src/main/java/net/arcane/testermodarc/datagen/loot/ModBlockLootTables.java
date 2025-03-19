@@ -1,7 +1,9 @@
 package net.arcane.testermodarc.datagen.loot;
 
 import net.arcane.testermodarc.block.ModBlocks;
+import net.arcane.testermodarc.block.custom.StrawberryCropBlock;
 import net.arcane.testermodarc.item.ModItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
@@ -14,6 +16,8 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -52,6 +56,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.Netherrack_Soul_Sapphire_Ore.get(), ModItems.RAW_SOUL_SAPPHIRE.get()));
             this.add(ModBlocks.End_Stone_Soul_Sapphire_Ore.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.End_Stone_Soul_Sapphire_Ore.get(), ModItems.RAW_SOUL_SAPPHIRE.get()));
+
+        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.Strawberry_Crop.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));
+
+        this.add(ModBlocks.Strawberry_Crop.get(), createCropDrops(ModBlocks.Strawberry_Crop.get(), ModItems.STRAWBERRY.get(),
+                ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
+
+
     }
 
 

@@ -3,6 +3,7 @@ package net.arcane.testermodarc.block;
 
 import net.arcane.testermodarc.TesterModArc;
 import net.arcane.testermodarc.block.custom.SoundBlock;
+import net.arcane.testermodarc.block.custom.StrawberryCropBlock;
 import net.arcane.testermodarc.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -64,6 +65,9 @@ public class ModBlocks
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion(), BlockSetType.CHERRY));
     public static final RegistryObject<Block> Soul_Sapphire_TrapDoor = registerBlock("soul_sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion(), BlockSetType.CHERRY));
+
+    public static final RegistryObject<Block> Strawberry_Crop = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)

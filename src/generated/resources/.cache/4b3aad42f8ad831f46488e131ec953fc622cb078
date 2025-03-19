@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-08T16:21:01.9732901	Item Models: testermodarc
+// 1.20.1	2025-03-19T16:15:10.0683447	Item Models: testermodarc
 e645f6bb3b78e28fcc2e41bd035ecf745d2a22fe assets/testermodarc/models/item/metal_detector.json
 aa2d051b7696cc90ff7eec9b4cdc7b7edfef3068 assets/testermodarc/models/item/pine_cone.json
 fd84d96246e74e302029f30212f3688a91080653 assets/testermodarc/models/item/raw_soul_sapphire.json
@@ -61,3 +61,4 @@ f6c487775130e785e7a51a2d39f3eb521faf27f6 assets/testermodarc/models/item/soul_sa
 34cce4c87c3ccd707408fb79a03769bc00b4e392 assets/testermodarc/models/item/soul_sapphire_trapdoor.json
 998c19104abd2736309ffd850f71257fd5214308 assets/testermodarc/models/item/soul_sapphire_wall.json
 4ef6255ab5f40f010a5fe87cc8b46df86bbfac21 assets/testermodarc/models/item/strawberry.json
+d136d683be1e94bd9fbf23db2821281954afd8ad assets/testermodarc/models/item/strawberry_seeds.json

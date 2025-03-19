@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-06T10:55:16.7108444	Loot Tables
+// 1.20.1	2025-03-19T16:15:10.065342	Loot Tables
 2f4634a2325e1e4bdc0ea730e749f1563c95282b data/testermodarc/loot_tables/blocks/deepslate_soul_sapphire_ore.json
 f151823cd308759fa148bc8b943145485e681a6f data/testermodarc/loot_tables/blocks/end_stone_soul_sapphire_ore.json
 85bb83239762870dd3a32daaba46bcfca672e569 data/testermodarc/loot_tables/blocks/netherrack_soul_sapphire_ore.json
@@ -15,3 +15,4 @@ d585263d15c4fe947606b5c2681098b91d5b5172 data/testermodarc/loot_tables/blocks/so
 db36e76df7366525b743d646e959a602e22ab0b1 data/testermodarc/loot_tables/blocks/soul_sapphire_trapdoor.json
 e4600aee90ecda112a37d1bef96200b3cb170b70 data/testermodarc/loot_tables/blocks/soul_sapphire_wall.json
 2c4b27610fcc6d335d99e0412d56e9d352c5355d data/testermodarc/loot_tables/blocks/sound_block.json
+7136643f6cb09ade0a0a83a9961391b361bd48df data/testermodarc/loot_tables/blocks/strawberry_crop.json
