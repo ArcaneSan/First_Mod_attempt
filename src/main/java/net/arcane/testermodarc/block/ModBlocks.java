@@ -2,6 +2,7 @@ package net.arcane.testermodarc.block;
 
 
 import net.arcane.testermodarc.TesterModArc;
+import net.arcane.testermodarc.block.custom.CornCropBlock;
 import net.arcane.testermodarc.block.custom.SoundBlock;
 import net.arcane.testermodarc.block.custom.StrawberryCropBlock;
 import net.arcane.testermodarc.item.ModItems;
@@ -68,6 +69,8 @@ public class ModBlocks
 
     public static final RegistryObject<Block> Strawberry_Crop = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop",
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)

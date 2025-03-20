@@ -1,4 +1,5 @@
-// 1.20.1	2025-03-19T16:15:10.065342	Loot Tables
+// 1.20.1	2025-03-19T17:04:54.0308082	Loot Tables
+ec06f8247026bf77055b42fd424db7a902f1355c data/testermodarc/loot_tables/blocks/corn_crop.json
 2f4634a2325e1e4bdc0ea730e749f1563c95282b data/testermodarc/loot_tables/blocks/deepslate_soul_sapphire_ore.json
 f151823cd308759fa148bc8b943145485e681a6f data/testermodarc/loot_tables/blocks/end_stone_soul_sapphire_ore.json
 85bb83239762870dd3a32daaba46bcfca672e569 data/testermodarc/loot_tables/blocks/netherrack_soul_sapphire_ore.json

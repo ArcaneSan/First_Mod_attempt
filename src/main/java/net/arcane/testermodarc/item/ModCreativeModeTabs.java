@@ -52,6 +52,8 @@ public class ModCreativeModeTabs
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 
                         output.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        output.accept(ModItems.Corn.get());
+                        output.accept(ModItems.CORN_SEEDS.get());
 
                         output.accept(ModItems.SOUL_SAPPHIRE_PICKAXE.get());
                         output.accept(ModItems.SOUL_SAPPHIRE_AXE.get());

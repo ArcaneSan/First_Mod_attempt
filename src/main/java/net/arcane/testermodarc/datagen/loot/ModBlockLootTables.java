@@ -1,6 +1,7 @@
 package net.arcane.testermodarc.datagen.loot;
 
 import net.arcane.testermodarc.block.ModBlocks;
+import net.arcane.testermodarc.block.custom.CornCropBlock;
 import net.arcane.testermodarc.block.custom.StrawberryCropBlock;
 import net.arcane.testermodarc.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
@@ -63,6 +64,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.Strawberry_Crop.get(), createCropDrops(ModBlocks.Strawberry_Crop.get(), ModItems.STRAWBERRY.get(),
                 ModItems.STRAWBERRY_SEEDS.get(), lootitemcondition$builder));
+
+        LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 7))
+                .or(LootItemBlockStatePropertyCondition
+                        .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8)));
+
+        // LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
+        //         .hasBlockStateProperties(ModBlocks.CORN_CROP.get())
+        //         .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CornCropBlock.AGE, 8));
+
+        this.add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(), ModItems.Corn.get(),
+                ModItems.CORN_SEEDS.get(), lootitemcondition$builder2));
 
 
     }

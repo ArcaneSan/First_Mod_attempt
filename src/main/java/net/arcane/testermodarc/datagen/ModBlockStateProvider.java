@@ -2,6 +2,7 @@ package net.arcane.testermodarc.datagen;
 
 import net.arcane.testermodarc.TesterModArc;
 import net.arcane.testermodarc.block.ModBlocks;
+import net.arcane.testermodarc.block.custom.CornCropBlock;
 import net.arcane.testermodarc.block.custom.StrawberryCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -45,6 +46,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.Soul_Sapphire_TrapDoor.get()), modLoc("block/soul_sapphire_trapdoor"), true, "cutout");
 
         makeStrawberryCrop((CropBlock) ModBlocks.Strawberry_Crop.get(), "strawberry_stage", "strawberry_stage");
+        makeCornCrop(((CropBlock) ModBlocks.CORN_CROP.get()), "corn_stage_", "corn_stage_");
 
 
     }
@@ -61,6 +63,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((StrawberryCropBlock) block).getAgeProperty()),
                 new ResourceLocation(TesterModArc.MOD_ID, "block/" + textureName + state.getValue(((StrawberryCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
+    public void makeCornCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> cornStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] cornStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CornCropBlock) block).getAgeProperty()),
+                new ResourceLocation(TesterModArc.MOD_ID, "block/" + textureName + state.getValue(((CornCropBlock) block).getAgeProperty()))).renderType("cutout"));
 
         return models;
     }
